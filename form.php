@@ -4,7 +4,7 @@ if(!$res['success']){
   // Error
 }
 function reCaptcha($recaptcha){
-  $secret = "YOUR SECRET KEY";
+  $secret = "6LfeTdAaAAAAAAAzNq-nFrQN_Lzayw9L6ktldHgy";
   $ip = $_SERVER['REMOTE_ADDR'];
 
   $postvars = array("secret"=>$secret, "response"=>$recaptcha, "remoteip"=>$ip);
